@@ -1,0 +1,1217 @@
+/*--- reset ---*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--- reset---*/
+
+
+
+/*-- Colours
+	 
+	 orange:  #CE7C32;
+	 dark:  #3E2823;
+	 lightgrey:  #DED9C7;
+	 dim gray:  #594B4D;
+	 dimmergray:  #705F5B;
+	 Lys rosa:  #eee4d9;
+
+
+	 NEW COLOURS
+	 DIM GRAY:   #72605F;
+	 Light steel blue:   #DFDFE3;
+	 Dark gray:   #37373A;
+	 Brown:      #C2A79E;
+	 Steel blue: #4D9FAD;
+
+
+	 --*/
+
+/*-- mobil versjon--*/
+body{
+		align-content: center;
+		background-color: #DFDFE3;
+	}
+	div h3.Arbeidsplattform {
+		border:none;
+		text-align: center;
+
+	}
+	.navbar {
+    overflow: hidden;
+    background-color: #DFDFE3;
+    font-family: Arial;
+	}
+
+	.dropdown {
+    float: right;
+    overflow: hidden;
+    width: 50%;
+	}
+	
+	.navbar  img {
+		max-width:50%;
+		height: auto;
+		margin-top: 5px;
+	}
+	.dropbtn img {
+		float: right;
+		margin-top: 10px;
+	}
+
+	.dropdown .dropbtn {
+    max-width: 100%;   
+    border: none;
+    outline: none;
+    color: #37373A;
+    float: right;
+    background-color: #DFDFE3;
+
+
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #37373A;
+	}
+	div.dropdown-content{
+		max-width: 100%;
+		cursor: pointer;
+	}
+
+	.dropdown-content {
+	margin-top: 45px;	
+    display: none;
+    position: absolute;
+    left:0;
+    background-color: #37373A;
+    max-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+	}
+
+	.dropdown-content a {
+    float: none;
+    color: #4D9FAD;
+    padding: 50px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+
+	}
+
+	.dropdown-content a:hover {
+    background-color: #ddd; 
+	}
+
+	.dropdown:hover .dropdown-content {
+    display: block;
+	}
+	nav {
+		background-color: #DFDFE3;
+		max-width: 100%;
+		height: auto;
+	}
+	.margin{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	div.logotextbox {
+		float: left;
+	}
+
+	.logotextbox img {
+		height: auto;
+		max-width: 100%;
+	}
+	div.menybox {
+		float: right;
+		width: 35%;
+		margin-right: 5px;
+	}
+	.menybox img {
+		height: auto;
+		max-width: 100%;
+		float: right;
+		margin-top: 1%;
+	}
+	.header {
+		float: ;
+	}
+	
+	.logotextbox{
+		float: left;
+		height: 50px; width: 50%;
+		margin-top: 2px;
+		margin-left: 5px;
+
+	}
+	
+  	.mot_oss_block {
+  		background-color: #DFDFE3;
+  		padding: 10px 10px 10px 10px;
+
+  	}
+  	.motoss {
+  		
+  		color: #4D9FAD;
+
+  	}
+
+
+  	header img {
+  		max-width: 100%;
+  		
+
+  	}
+  	article {
+  		background-color: #DFDFE3;
+  	}
+  	.om_oss_box {
+  		border-bottom: 10px solid #4D9FAD;
+  	
+
+  	}
+  	h2 {
+  		font-size: 30px;
+  		text-align: center;
+  		align-self: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: bold;
+  		color: #37373A;
+  		margin: 50px 0px 50px 0px;
+
+  	}
+  	h3 {
+  		text-align: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: 550;
+  		color: #37373A;
+  		padding:10px 5px 10px 5px;
+  		margin: 10px 10px 10px 10px;
+  		border-bottom: 1px solid #4D9FAD;
+  		border-left: 1px solid #4D9FAD;
+  		font-size: 20px;
+
+  	}
+  	p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #37373A;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin:10px 10px 10px 10px;
+
+  	}
+  	
+  	.margin {
+  		margin-right: 5px;
+  		margin-left: 5px;
+  		margin-top: 10px;
+  		margin-bottom: 10px;
+  	}
+
+  	/*-- Galleri --*/
+
+	
+
+	
+	}
+	div.left {
+		float: left;
+		margin-left: 4.7%;
+
+	}
+	div.right {
+		float: right;
+		margin-right: 4.7%;
+	}
+	.Brukere {
+		display: inline-block;
+		background-color: #37373A;
+		font-size: 22px;
+		color: #DFDFE3;
+		width: 100%;
+		font-size: 20px;
+		padding:10px 10px 10px 10px;
+	}
+	.prdkt{
+		padding-top: 78px;
+		padding-bottom: 78px;
+		float: none;
+    	color: #4D9FAD;
+    	text-decoration: none;
+    	display: block;
+    	text-align: left;
+   	 	width: 100%;
+    	font-size: 25px;
+    	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+	}
+	footer {
+		
+  		max-width: ;
+  		display: block;
+  		background-color: #37373A;
+  		padding-top: 50px;
+
+
+  	}
+  	img .fot_logo {
+  		float: left;
+  		width: 20%;
+  		
+
+
+  	}
+  	
+  	.fot_logo {
+  		margin-left: 50px;
+  		height: 50%;
+  	}
+
+
+  	.fot_kontakt {
+  		
+  		width: 80%;
+  		line-height: 1px;
+  		display: grid;
+
+  	}
+  
+  	.fot_meny {
+  		
+  		width: 100%;
+  		line-height: 1px;
+  		display: grid;
+  		
+
+  	}
+  	.fot_produkt {
+  		
+  		width: 100%;
+  		line-height: 2px;
+  		display: grid;
+  		 
+
+  	}
+  	p.fot_p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin:10px 10px 10px 10px;
+
+  	}
+  	p.fot_p_main {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 22px;
+  		margin:10px 10px 10px 10px;
+  		font-weight: 600;
+  	}
+  	a.fot_p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin: 10px;
+  	}
+
+	
+
+	
+
+
+  	 
+
+	/*--- Produkt css --*/
+
+
+
+	.kortleser_box div img {
+	width: 100%;
+
+	}
+	.ITbase_box div img {
+	width: 100%;
+	}
+	.Konsulent_box div img {
+	width: 100%;
+	}
+	h3 {
+  	background-color: #DFDFE3;
+  	}
+
+
+@media only screen and (min-width: 150px ) and (max-width: 450px){
+	body{
+		align-content: center;
+		background-color: #DFDFE3;
+	}
+	div h3.Arbeidsplattform {
+		border:none;
+		text-align: center;
+
+	}
+	.navbar {
+    overflow: hidden;
+    background-color: #DFDFE3;
+    font-family: Arial;
+	}
+
+	.dropdown {
+    float: right;
+    overflow: hidden;
+    width: 50%;
+	}
+	
+	.navbar  img {
+		max-width:50%;
+		height: auto;
+		margin-top: 5px;
+	}
+	.dropbtn img {
+		float: right;
+		margin-top: 0px;
+		height: 38px;
+		max-width: 114px;
+	}
+
+	.dropdown .dropbtn {
+    max-width: 100%;   
+    border: none;
+    outline: none;
+    color: #37373A;
+    float: right;
+    background-color: #DFDFE3;
+
+
+	}
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #37373A;
+	}
+	div.dropdown-content{
+		max-width: 100%;
+	}
+
+	.dropdown-content {
+	margin-top: 45px;	
+    display: none;
+    position: absolute;
+    left:0;
+    background-color: #37373A;
+    max-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+	}
+
+	.dropdown-content a {
+    float: none;
+    color: #4D9FAD;
+    padding: 50px 8px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    font-size: 25px;
+
+	}
+
+	.dropdown-content a:hover {
+    background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+    display: block;
+	}
+	nav {
+		background-color: #DFDFE3;
+		max-width: 100%;
+		height: auto;
+	}
+	.margin{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	div.logotextbox {
+		float: left;
+	}
+
+	.logotextbox img {
+		height: auto;
+		max-width: 100%;
+	}
+	div.menybox {
+		float: right;
+		width: 35%;
+		margin-right: 5px;
+	}
+	.menybox img {
+		height: auto;
+		max-width: 100%;
+		float: right;
+		margin-top: 1%;
+	}
+	.header {
+		float: ;
+	}
+	
+	.logotextbox{
+		float: left;
+		height: 50px; width: 50%;
+		margin-top: 2px;
+		margin-left: 5px;
+
+	}
+	
+  	.mot_oss_block {
+  		background-color: #DFDFE3;
+  		padding: 10px 10px 10px 10px;
+
+  	}
+  	.motoss {
+  		
+  		color: #4D9FAD;
+
+  	}
+
+
+  	header img {
+  		max-width: 100%;
+  		
+
+  	}
+  	article {
+  		background-color: #DFDFE3;
+  	}
+  	.om_oss_box {
+  		border-bottom: 10px solid #4D9FAD;
+  	
+
+  	}
+  	h2 {
+  		font-size: 30px;
+  		text-align: center;
+  		align-self: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: bold;
+  		color: #37373A;
+  		margin: 50px 0px 50px 0px;
+
+  	}
+  	h3 {
+  		text-align: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: 550;
+  		color: #37373A;
+  		padding:10px 5px 10px 5px;
+  		margin: 10px 10px 10px 10px;
+  		border-bottom: 1px solid #4D9FAD;
+  		border-left: 1px solid #4D9FAD;
+  		font-size: 20px;
+
+  	}
+  	p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #37373A;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin:10px 10px 10px 10px;
+
+  	}
+  	
+  	.margin {
+  		margin-right: 5px;
+  		margin-left: 5px;
+  		margin-top: 10px;
+  		margin-bottom: 10px;
+  	}
+
+  	/*-- Galleri --*/
+
+	div.Gallery {
+	margin: 0 auto;
+    border: none;
+   	display: inline-block;
+    max-width: 100%;
+
+	}
+
+	div.Gallery:hover {
+    border: none;
+	}
+
+	div.Gallery img {
+    width: 100%;
+    height: auto;
+	}
+
+	p.logo_desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+	}
+	div.Gallery_box {
+		margin: 0 auto;
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.Brukere {
+		display: inline-block;
+		background-color: #37373A;
+		font-size: 22px;
+		color: #DFDFE3;
+		width: 100%;
+		font-size: 20px;
+		padding:10px 10px 10px 10px;
+	}
+	.prdkt{
+		padding-top: 78px;
+		padding-bottom: 78px;
+		float: none;
+    	color: #4D9FAD;
+    	text-decoration: none;
+    	display: block;
+    	text-align: left;
+   	 	width: 100%;
+    	font-size: 25px;
+    	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+	}
+	.ref_wrapper {
+  		max-width: 1000px;
+  		margin: 0 auto;
+  		display: flex;
+  		flex-wrap: wrap;
+
+
+
+  	}
+  	.img_txt{
+  		width: 100%;
+  		max-height: 120px;
+  		margin: auto;
+  		display:block;
+  		padding: 30px;
+  	}
+  	.ref_img{
+  		max-width: 100%;
+  		max-height: 100%;
+  		margin: auto auto;
+  		display: block;
+  		
+  		
+  	}
+  	.img_wrap{
+  		margin-top: auto;
+  		margin-bottom: auto;
+  		display: block;
+  		height: 50px;
+
+  	}
+  	.ref_txt{
+  		text-align: center;
+  	}
+
+
+  	/*--- footer ----*/
+
+  	footer {
+		margin-top: 10px;
+  		max-width: 100%;
+  		display: block;
+  		background-color: #37373A;
+  		padding: 10px;
+
+
+  	}
+  	img .fot_logo {
+  		float: left;
+  		width: 20%;
+  		
+
+
+  	}
+  	
+  	.fot_logo {
+  		margin-left: 50px;
+  		height: 50%;
+  	}
+
+
+  	.fot_kontakt {
+  		
+  		width: 20%;
+
+  	}
+  	.fot_meny {
+  		
+  		width: 20%;
+
+  	}
+  	.fot_produkt {
+  		
+  		width: 20%;
+
+  	}
+  	p.fot_p {
+  		font-size: 15px;
+  		line-height: 0.1 ;
+
+  		color: #DFDFE3;
+
+  	}
+  	p .fot_p_main {
+  		font-size: 20px !important;
+  	}
+  	p .fot_p a {
+  		text-decoration: none;
+  	}
+
+
+  	/*-- møt oss --*/
+
+  	
+  
+	
+
+	
+
+
+  	 
+
+	/*--- Produkt css --*/
+
+
+
+	.kortleser_box div img {
+	width: 100%;
+
+	}
+	.ITbase_box div img {
+	width: 100%;
+	}
+	.Konsulent_box div img {
+	width: 100%;
+	}
+	h3 {
+  	background-color: #DFDFE3;
+  	}
+  
+  
+
+
+
+
+}
+/*-- Tablet versjon --*/
+
+@media only screen and (min-width: 451px ) and (max-width: 960px){
+
+
+
+} 
+
+
+
+
+/*-- desktop versjon --*/
+
+@media only screen and (min-width: 451px) {
+
+ body{
+		align-content: center;
+		background-color: #DFDFE3;
+	}
+	div h3.Arbeidsplattform {
+		border:none;
+		text-align: center;
+
+	}
+	.navbar {
+    width: 70%;
+    margin: 0 auto;
+	}
+	
+
+	.dropdown {
+    float: right;
+    overflow: hidden;
+    width: 50%;
+	}
+	
+	.navbar  img {
+		max-width:20%;
+		height: auto;
+		margin-top: 5px;
+	}
+	.dropbtn img {
+		float: right;
+		margin-top: 0px;
+		height: 38px;
+		max-width: 114px;
+	}
+
+	.dropdown .dropbtn {
+    max-width: 100%;   
+    border: none;
+    outline: none;
+    color: #37373A;
+    float: right;
+    background-color: #DFDFE3;
+
+
+	}
+	
+
+	.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #37373A;
+	}
+	div.dropdown-content{
+		max-width: 35%;
+	}
+
+	.dropdown-content {
+	margin-top: 40px;	
+    display: none;
+    
+    background-color: #37373A;
+    max-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    top: -2px;
+	}
+
+	.dropdown-content a {
+   
+    color: #4D9FAD;
+    padding: 50px 8px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+
+	}
+
+	.dropdown-content a:hover {
+    background-color: #ddd;
+	}
+
+	.dropdown:hover .dropdown-content {
+    display: block;
+    margin-left: 50%;
+	}
+	nav {
+		background-color: #DFDFE3;
+		max-width: 100%;
+		height: auto;
+	}
+	.margin{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	div.logotextbox {
+		float: left;
+	}
+
+	.logotextbox img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	.menybox img {
+		height: auto;
+		max-width: 100%;
+		float: right;
+		margin-top: 1%;
+	}
+	.header {
+		float: ;
+	}
+	
+	.logotextbox{
+		float: left;
+		height: 50px; width: 50%;
+		margin-top: 2px;
+		margin-left: 5px;
+
+	}
+	
+  	.mot_oss_block {
+  		background-color: #DFDFE3;
+  		padding: 10px 10px 10px 10px;
+
+  	}
+  	.motoss {
+  		
+  		color: #4D9FAD;
+
+  	}
+
+
+  	header img {
+  		width: 100%;
+  		
+
+  	}
+  	article {
+  		background-color: #DFDFE3;
+  	}
+  	.om_oss_box {
+  		border-bottom: 10px solid #4D9FAD;
+  		width: 60%;
+  		margin: 0 auto;
+  		margin-top: 30px;
+  	
+
+  	}
+  	h2 {
+  		font-size: 40px;
+  		text-align: center;
+  		align-self: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: bold;
+  		color: #37373A;
+  		margin: 50px 0px 50px 0px;
+
+  	}
+  	h3 {
+  		text-align: center;
+  		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  		font-weight: 550;
+  		color: #37373A;
+  		padding:10px 5px 10px 5px;
+  		margin: 10px auto;
+  		border-bottom: 1px solid #4D9FAD;
+  		border-left: 1px solid #4D9FAD;
+  		font-size: 30px;
+  		max-width: 800px;
+  		display: block;
+
+  	}
+  	p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #37373A;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin: 10px auto;
+  		max-width: 900px;
+  		align-content: center;
+
+  		
+
+
+  	}
+  	img.img_byggekort {
+  		width: 200px;
+  	}
+  	
+  	.margin {
+  		margin-right: 5px;
+  		margin-left: 5px;
+  		margin-top: 40px;
+  		margin-bottom: 30px;
+  	}
+
+  	/*-- Galleri --*/
+
+	div.Gallery {
+	
+    border: none;
+   	display: inline-block;
+    max-width: 40%;
+
+	}
+
+	div.Gallery:hover {
+    border: none;
+	}
+
+	div.Gallery img {
+    width: 100%;
+    height: auto;
+	}
+
+	p.logo_desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+	}
+	div.Gallery_box {
+		margin: 0 auto;
+		float: left;
+		margin-top: 10px;
+	}
+	div.left {
+		float: left;
+		margin-left: 4.7%;
+
+	}
+	div.right {
+		float: right;
+		margin-right: 4.7%;
+	}
+	.Brukere {
+		display: inline-block;
+		background-color: #37373A;
+		font-size: 22px;
+		color: #DFDFE3;
+		width: 100%;
+		font-size: 20px;
+		padding:10px 10px 10px 10px;
+	}
+	.prdkt{
+		padding-top: 78px;
+		padding-bottom: 78px;
+		float: none;
+    	color: #4D9FAD;
+    	text-decoration: none;
+    	display: block;
+    	text-align: left;
+   	 	width: 100%;
+    	font-size: 25px;
+    	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+
+	}
+	.wrapper{
+		max-width: 1200px;
+		margin: 0 auto;
+		display: block;
+	}
+	.produkter_box {
+		width: 70%;
+		margin: 0 auto;
+		
+	}
+	.profile {
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		width: 70%;
+		align-content: center;
+		float: none !important;
+		}
+ 	 .profilepic  {
+  		width: 20%;
+  		padding-right:75px; 
+  		padding-left:75px;
+
+  	}
+  	
+  
+  	.profile_desc {
+
+
+  	}
+  	p.navn{
+  		font-size: 25px;
+  		font-weight: 500;
+  	}
+	footer {
+		margin-top: 100px;
+  		max-width: 100%;
+  		display: block;
+  		background-color: #37373A;
+  		padding: 50px;
+
+
+  	}
+  	img .fot_logo {
+  		float: left;
+  		width: 20%;
+  		
+
+
+  	}
+  	
+  	.fot_logo {
+  		margin-left: 50px;
+  		height: 50%;
+  	}
+
+
+  	.fot_kontakt {
+  		float: right;
+  		width: 20%;
+  		line-height: 1px;
+  		display: grid;
+
+  	}
+  	.fot_meny {
+  		float: right;
+  		width: 20%;
+  		line-height: 1px;
+  		display: grid;
+  		
+
+  	}
+  	.fot_produkt {
+  		float: right;
+  		width: 20%;
+  		line-height: 2px;
+  		display: grid;
+  		 
+
+  	}
+  	p.fot_p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin:10px 10px 10px 10px;
+
+  	}
+  	p.fot_p_main {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 22px;
+  		margin:10px 10px 10px 10px;
+  		font-weight: 600;
+  	}
+  	a.fot_p {
+  		font-family: Tahoma, Geneva, sans-serif;
+  		align-self: left;
+  		color: #DFDFE3;
+  		line-height: 1.3;
+  		font-size: 18px;
+  		margin: 10px;
+  	}
+
+	/*--- Produkt css --*/
+
+
+
+	.kortleser_box div img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+
+	}
+	.ITbase_box div img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	}
+	.Konsulent_box div img {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	}
+	h3 {
+  	background-color: #DFDFE3;
+  	}
+  	.ref_wrapper {
+  		max-width: 1000px;
+  		margin: 0 auto;
+  		display: flex;
+  		flex-wrap: wrap;
+
+
+
+  	}
+  	.img_txt{
+  		max-width: 120px;
+  		max-height: 120px;
+  		margin: auto;
+  		display:block;
+  		padding: 30px;
+  	}
+  	.ref_img{
+  		max-width: 100%;
+  		max-height: 100%;
+  		margin: auto auto;
+  		display: block;
+  		
+  		
+  	}
+  	.img_wrap{
+  		margin-top: auto;
+  		margin-bottom: auto;
+  		display: block;
+  		height: 50px;
+
+  	}
+  	.ref_txt{
+  		text-align: center;
+  	}
+  	
+
+  	
+  	
+
+  	
+
+}
+	
+	
+  	
+  	
+
+
+	
